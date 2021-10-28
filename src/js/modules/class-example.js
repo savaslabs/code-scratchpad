@@ -1,7 +1,10 @@
 export class ClassExample {
   constructor(el) {
     this.el = el;
-    console.log("class-example has loaded");
-    console.log(`element: ${this.el}`);
+    if (this.el.textContent.length > 0) {
+      console.log(
+        `Contents of title from classical component: ${this.el.textContent}`
+      );
+    }
   }
 }

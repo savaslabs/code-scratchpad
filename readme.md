@@ -20,3 +20,5 @@ npm run start
 ```
 
 The project will open in the browser at `http://localhost:8080`.
+
+You will know everything works because it will load a pink page with red centered text as well as some basic logs in the console that show the text on the page.

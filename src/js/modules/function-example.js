@@ -1,4 +1,7 @@
 export function functionExample(el) {
-  console.log("function-example loaded");
-  console.log(`element: ${el}`);
+  if (el.textContent.length > 0) {
+    console.log(
+      `Contents of title from functional component: ${el.textContent}`
+    );
+  }
 }

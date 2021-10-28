@@ -1,7 +1,7 @@
 import { functionExample } from "./modules/function-example.js";
 import { ClassExample } from "./modules/class-example.js";
 
-const documentBody = document.body;
+const title = document.querySelector("h1");
 
-functionExample(documentBody);
-new ClassExample(documentBody);
+functionExample(title);
+new ClassExample(title);
