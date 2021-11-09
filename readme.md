@@ -4,7 +4,7 @@ This repo is a basic way to prototype or start a project quickly.
 
 To use this project you must have [Node Package Manager](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm) installed.
 
-It uses [Snowpack](https://www.snowpack.dev/) as an app bundler with use of [PostCSS](https://postcss.org/) with [Nesting](https://www.npmjs.com/package/postcss-nesting) and [Tailwind CSS](https://tailwindcss.com/) to make building styles easy. It also employs [ES+ JS](https://developer.mozilla.org/en-US/docs/Web/javascript) for a modern and flexible approach to interactivity and application development.
+It uses [Snowpack](https://www.snowpack.dev/) as an app bundler with use of [PostCSS](https://postcss.org/) with [Nesting](https://www.npmjs.com/package/postcss-nesting) and [Tailwind CSS](https://tailwindcss.com/) to make building styles easy. It also employs [ES6+ JS](https://developer.mozilla.org/en-US/docs/Web/javascript) for a modern and flexible approach to interactivity and application development.
 
 ## To get started
 
