@@ -1,6 +1,14 @@
+/* If you do not plan on using Tailwind,
+ * feel free to delete the `@tailwind` imports.
+ **/
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* Delete the following code
+ * Note that this uses PostCSS which always nests rules
+ * with a `&` prefix.
+ **/
 
 body {
   background: #ffefff;
