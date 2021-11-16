@@ -1,5 +1,7 @@
 /* If you do not plan on using Tailwind,
- * feel free to delete the `@tailwind` imports.
+ * delete the `@tailwind` imports and the `tailwindConfig` key
+ * from `nowpack.config.js` and re-run `npm run start` to enable
+ * hot reloading of css.
  **/
 @tailwind base;
 @tailwind components;
@@ -9,7 +11,6 @@
  * Note that this uses PostCSS which always nests rules
  * with a `&` prefix.
  **/
-
 body {
   background: #ffefff;
 
