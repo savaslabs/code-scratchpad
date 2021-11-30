@@ -20,5 +20,8 @@
   },
   "dependencies": {
     "@snowpack/plugin-sass": "^1.4.0"
+  },
+  "engines": {
+    "node": ">=12.0.0"
   }
 }
