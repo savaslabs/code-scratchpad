@@ -10,7 +10,10 @@ module.exports = {
   devOptions: {
     tailwindConfig: "./tailwind.config.js",
   },
-  plugins: ["@snowpack/plugin-postcss"],
+  plugins: [
+    "@snowpack/plugin-sass",
+    "@snowpack/plugin-postcss"
+  ],
   buildOptions: {
     /* ... */
   },
