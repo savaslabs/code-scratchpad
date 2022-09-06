@@ -1,0 +1,25 @@
+/* If you plan on using Sass
+ * 
+
+ */
+
+@import "./partials/_normalize";
+@import "./partials/_variables";
+
+
+main { height:100vh; display:flex; align-items: center; justify-content: center; background:$pink;
+  h1 { font-size:clamp(2rem,8vw,9rem); text-align: center; color:$black; }
+}
+
+
+/* If you plan on using TAILWIND
+ * 1. delete everything above
+ * 2. uncomment the @tailwind partials below
+ * 3. rename this file index.css
+ **/
+
+/*
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+*/

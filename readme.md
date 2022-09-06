@@ -1,10 +1,16 @@
-# Code Scratchpad
+# Savas Code Scratchpad
 
 This repo is a basic way to prototype or start a project quickly.
 
-To use this project you must have [Node Package Manager](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm) installed.
+## Requirements
+- [Node](https://nodejs.org/en)
+- [Node Package Manager](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm) 
 
-It uses [Snowpack](https://www.snowpack.dev/) as an app bundler with use of [PostCSS](https://postcss.org/) with [Nesting](https://www.npmjs.com/package/postcss-nesting) and [Tailwind CSS](https://tailwindcss.com/) to make building styles easy. It also employs [ES6+ JS](https://developer.mozilla.org/en-US/docs/Web/javascript) for a modern and flexible approach to interactivity and application development.
+
+## What's in here?
+- This uses [Snowpack](https://www.snowpack.dev) as an app bundler.
+- Allows styling with [Sass](https://sass-lang.com), [Tailwind](https://tailwindcss.com/), and/or [PostCSS](https://postcss.org/) (whichever you prefer, see `/src/css/index.css` for details)
+- Does _not_ contain any javascript framework, add your own if you like.
 
 ## To get started
 
@@ -23,4 +29,4 @@ npm run start
 
 The project will open in the browser at `http://localhost:8080`.
 
-You will know everything works because it will load a pink page with red centered text as well as some basic logs in the console that show the text on the page.
+You will know everything works because it will load a pink page with centered text as well as some basic logs in the console that show the text on the page.
